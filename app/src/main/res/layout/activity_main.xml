@@ -13,7 +13,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/background">
 
         <EditText
             android:layout_width="match_parent"
@@ -51,32 +52,34 @@
             android:layout_marginLeft="90dp"
             android:id="@+id/textView2" />
 
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp">
-
-        <android.support.design.widget.CoordinatorLayout
-
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp">
 
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab"
-                android:layout_width="172dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|left"
-                android:layout_marginTop="50dp"
-                android:layout_margin="@dimen/fab_margin"
-                app:srcCompat="@android:drawable/ic_dialog_email" />
+            <android.support.design.widget.CoordinatorLayout
 
-        </android.support.design.widget.CoordinatorLayout>
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginTop="50dp"
+                    android:layout_margin="@dimen/fab_margin"
+                    app:srcCompat="@android:drawable/ic_dialog_email" />
+
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </FrameLayout>
 
 
     </FrameLayout>
+
+
 
 
 
